@@ -20,24 +20,24 @@
             <div class=" d-flex mt-4">
                 <div class="col-3 pe-4">
                     <h4>Formulario de registro</h4>
-                    <form>
+                    <form id="formulario" >
                         <div class="mb-3">
-                            <label for="txt-rut" class="form-label">RUT</label>
+                            <label for="txt-rut" class="form-label">RUT<small>(11111111-1)</small></label>
                             <input type="text" class="form-control" id="txt-rut"
                                 aria-describedby="emailHelp">
-                            <div id="error-rut" class="form-text"></div>
+                            <div id="msn-rut" class="form-text text-danger"></div>
                         </div>
                         <div class="mb-3">
                             <label for="txt-nombre" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="txt-nombre"
                                 aria-describedby="emailHelp">
-                            <div id="error-nombre" class="form-text"></div>
+                            <div id="msn-nombre" class="form-text text-danger"></div>
                         </div>
                         <div class="mb-3">
                             <label for="txt-apellido" class="form-label">Apellido</label>
                             <input type="text" class="form-control" id="txt-apellido"
                                 aria-describedby="emailHelp">
-                            <div id="error-apellido" class="form-text"></div>
+                            <div id="msn-apellido" class="form-text text-danger"></div>
                         </div>
                         <button type="reset" class="btn btn-warning me-4">Limpiar</button>
                         <button type="submit" class="btn btn-dark">Registrar</button>
@@ -64,6 +64,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="public/js/main.js" ></script>
 <script src="public/js/bootstrap/bootstrap.bundle.min.js"></script>
+
 
 </html>

@@ -11,6 +11,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.1"
+    "cli-color": "^2.0.4",
+    "express": "^4.21.1",
+    "uuid": "^10.0.0"
   }
 }
