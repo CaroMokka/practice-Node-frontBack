@@ -20,6 +20,12 @@
             <div class=" d-flex mt-4">
                 <div class="col-3 pe-4">
                     <h4>Formulario de registro</h4>
+                    <div id="alert-validation" class="alert alert-warning error d-none" role="alert">
+     
+                      </div>
+                      <div id="alert-error" class="alert alert-danger error d-none" role="alert">
+
+                      </div>
                     <form id="formulario" >
                         <div class="mb-3">
                             <label for="txt-rut" class="form-label">RUT<small>(11111111-1)</small></label>
@@ -45,7 +51,7 @@
                 </div>
                 <div class="col-9">
                     <h4>Listado de personas</h4>
-                    <table class="table">
+                    <table id="table" class="table">
                         <thead>
                             <tr>
                                 <th>Id.</th>
@@ -54,6 +60,9 @@
                                 <th>Apellido</th>
                             </tr>
                         </thead>
+                        <tbody>
+                       
+                        </tbody>
                     </table>
                 </div>
             </div>
